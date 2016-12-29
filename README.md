@@ -1,4 +1,4 @@
-# smooth-scroll
+# Smooth scroll
 Smooth scroll with changing an active class on scroll
 
 # Usage
