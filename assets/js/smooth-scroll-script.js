@@ -22,23 +22,23 @@ jQuery(document).ready(function(){
 	jQuery(document).on('scroll', function() {
 	    if(jQuery(this).scrollTop()>=jQuery('#home').position().top){
 			jQuery('.ia-smooth-scroll').find('a').removeClass('active');
-	        jQuery('.ia-smooth-scroll').find('a[href="#home"]').addClass('active');
+	        jQuery('.ia-smooth-scroll').find('a[href="#home"]').parent().addClass('active');
 	    }
 		if(jQuery(this).scrollTop()>=jQuery('#about').position().top){
 	        jQuery('.ia-smooth-scroll').find('a').removeClass('active');
-	        jQuery('.ia-smooth-scroll').find('a[href="#abouts"]').addClass('active');
+	        jQuery('.ia-smooth-scroll').find('a[href="#abouts"]').parent().addClass('active');
 	    }
 		if(jQuery(this).scrollTop()>=jQuery('#product').position().top){
 	        jQuery('.ia-smooth-scroll').find('a').removeClass('active');
-	        jQuery('.ia-smooth-scroll').find('a[href="#product"]').addClass('active');
+	        jQuery('.ia-smooth-scroll').find('a[href="#product"]').parent().addClass('active');
 	    }
 		if(jQuery(this).scrollTop()>=jQuery('#services').position().top){
 	        jQuery('.ia-smooth-scroll').find('a').removeClass('active');
-	        jQuery('.ia-smooth-scroll').find('a[href="#services"]').addClass('active');
+	        jQuery('.ia-smooth-scroll').find('a[href="#services"]').parent().addClass('active');
 	    }
 		if(jQuery(this).scrollTop()>=jQuery('#contact').position().top){
 	        jQuery('.ia-smooth-scroll').find('a').removeClass('active');
-	        jQuery('.ia-smooth-scroll').find('a[href="#contact"]').addClass('active');
+	        jQuery('.ia-smooth-scroll').find('a[href="#contact"]').parent().addClass('active');
 	    }
 	});
 });
