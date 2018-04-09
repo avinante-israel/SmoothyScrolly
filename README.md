@@ -10,5 +10,3 @@ Everything else is self explanatory.
 
 # Note
 jQuery version should be 3.1.1 or above
-
-The js code is static, but it still works. Will update in the near future.
