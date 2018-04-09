@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function(){ 
 	// Smooth scroll
 	jQuery('.ia-smooth-scroll').find('a').on('click', function(event){
 		// Make sure this.hash has a value before overriding default behavior
