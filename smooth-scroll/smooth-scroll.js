@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
 		$(document).on('scroll', function(){
 			if($(this).scrollTop()>=$(anchorHash).position().top - 50){
 				$('.ia-smooth-scroll').find('a').parent().removeClass('active');
-				$('.ia-smooth-scroll').find('a[href=' + anchorHash + ']').parent().addClass('active');
+				$('.ia-smooth-scroll').find('a[href="' + anchorHash + '"]').parent().addClass('active');
 			}
 		});
 	});
