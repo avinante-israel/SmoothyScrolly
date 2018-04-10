@@ -1,5 +1,5 @@
 # Smoothy Scrolly
-Smooth scroll with ```active``` class on scroll
+Smooth scroll with ```active``` class on navigation based on current element
 
 # Usage
 Call Smoothy Scrolly manually with:
@@ -17,7 +17,7 @@ Transition of scrolling speed. Default ```speed: 800```
 Name of an active class. Default ```class: active```
 
 # Demo
-<a href="https://jsfiddle.net/bin182/5n59b8wt/16/" target="_blank">JS Fiddle</a>
+<a href="https://jsfiddle.net/bin182/5n59b8wt/22/" target="_blank">JS Fiddle</a>
 
 # Note
 jQuery version should be 3.1.1 or above
